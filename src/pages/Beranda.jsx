@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { ArrowRight, Calendar, User, Award, CheckCircle, MapPin, Phone, Mail, Sparkles } from "lucide-react";
 import { motion } from "framer-motion";
-import { schoolInfo, principalProfile, schoolStats, news, achievements } from "../data/schoolData";
+import { schoolInfo, principalProfile, schoolStats, news, achievements, ppdbInfo } from "../data/schoolData";
 
 const fadeInUp = {
   initial: { opacity: 0, y: 30 },
